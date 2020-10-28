@@ -1,0 +1,23 @@
+màu vàng #fafb07 
+màu nâu #6f2006
+màu giá đỏ #fe0226
+
+
+18px box upcase
+16px list
+
+giao hàng tận nơi 20px 
+
+
+title 18px
+
+còn lại là 16 px
+
+footer là 18pt hết
+
+responsive
+1200 lg
+
+992 md
+768 sm 
+nhỏ hơn 768 xs

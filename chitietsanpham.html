@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/index.css">
+    <style type="text/css">  
+        #gallery img  
+        {  
+        border:2px solid white;width: 96px;  
+        }  
+        .activeborder img  
+        {  
+        border:2px solid #333 !important;  
+        }  
+        #image  
+        {  
+        width: 459px;  
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 hidden-sm hidden-xs">
+                        <h1 class="logo "><img src="./imgs/logo.png"/><div class="bg"></div></h1>
+                    </div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                        <div class="p-70">
+                            <div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <p class="header-brand">Công ty tnhh thương mại và dịch vụ ngày mới</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-6">
+                                    <p class="header-provider">Nhận cung cấp VPP tại Hà Nội và các vùng lân cận</p>
+                                </div>
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-6">
+                                    <p class="header-icon header-phone">094449385</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <p class="header-icon header-shiper">Giao hàng tận nơi</p>
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <p class="header-icon header-bill">Hóa đơn chứng từ đầy đủ</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hotline hidden-lg hidden-md"> 
+                <p class="txt1">Liên hệ hotline:</p>
+                <p class="txt2">094449385</p>
+            </div>
+            <div class="menu-reponsive"><div></div><div></div><div></div></div>
+        </div>
+        <div id="nav" class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="menu-close hidden-lg hidden-md"><span class="glyphicon glyphicon-remove-sign"></span></div>
+            <ul  class="nav navbar-nav ">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Sản Phẩm</a></li>
+                <li><a href="#">Bán Buôn</a></li>
+                <li><a href="#">Báo Giá</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container modify-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 modify-col-3">
+                    <div class="input-group search-reponsive">
+                        <input type="text" class="form-control" id="exampleInputAmount" placeholder="Tìm kiếm">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default search"> 
+                                <span class="glyphicon glyphicon-search"></span>
+                             </button>
+                        </span>
+                    </div>
+                    
+                    <div class="category-box">
+                        <div class="close-category-box hidden-lg hidden-md"><span class="glyphicon glyphicon-remove-sign"></span></div>
+                        <h3 class="title-box hidden-sm hidden-xs">Danh mục sản phẩm</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="">Giấy in</a></li>
+
+                            <li class="list-group-item">
+                                <a data-href="#" data-toggle="collapse" data-target="#demo">Sơ my lỗ clearbag file mở góc <span class="caret"></span></a>
+                                
+                                <ul id="demo"  class="collapse list-group menu-dropdown">
+                                    <li class="list-group-item">
+                                        <a data-href="#" data-toggle="collapse" data-target="#demo1">Sơ my lỗ clearbag file mở góc<span class="caret"></span> </a>
+                                
+                                        <ul id="demo1"  class="collapse list-group menu-dropdown menu-dropdown1">
+                                            <li class="list-group-item"><a data-href="">Item 1</a></li>
+                                            <li class="list-group-item"><a data-href="">Item 2</a></li>
+                                            <li class="list-group-item"><a data-href="">Item 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-group-item"><a data-href="">Item 2</a></li>
+                                    <li class="list-group-item"><a data-href="">Item 3</a></li>
+                                </ul>
+                                
+                            </li>
+                           
+                            <li class="list-group-item"><a data-href="">file hộp file lá file còng ống</a></li>
+                            <li class="list-group-item"><a data-href="">file hộp file lá file còng ống</a></li>
+                            <li class="list-group-item"><a data-href="">bìa , bìa mica, đóng sỏ</a></li>
+                            <li class="list-group-item"><a data-href="">bút các loại tẩy phấn</a></li>
+                            <li class="list-group-item"><a data-href="">giấy ghi chú giấy nhớ</a></li>
+                            <li class="list-group-item"><a data-href="">băng dính, dao dọc giấy, kéo</a></li>
+                            <li class="list-group-item"><a data-href="">dập ghim, đạn ghim, kẹp ghim</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="news-box">
+                        <h3 class="title-box">Tin tức</h3>
+                        <div class="news-box-padding">
+                            <p class="txt">Văn phòng phẩm có đầy đủ hóa đơn chứng từ</p>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" height="60px" src="./imgs/news.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <p>Mua bán giao dịch tăng nhanh</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" height="60px" src="./imgs/news.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <p>Mua bán giao dịch tăng nhanh</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" height="60px" src="./imgs/news.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <p>Mua bán giao dịch tăng nhanh</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" height="60px" src="./imgs/news.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <p>Mua bán giao dịch tăng nhanh</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a class="pull-left" href="#">
+                                    <img class="media-object" height="60px" src="./imgs/news.jpg" alt="Image">
+                                </a>
+                                <div class="media-body">
+                                    <p>Mua bán giao dịch tăng nhanh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="more-box hidden-sm hidden-xs">
+                        <ul class="list-group">
+                            <li class="list-group-item">Hàng Khuyến mãi</li>
+                            <li class="list-group-item">Hàng mới về</li>
+                            <li class="list-group-item">Báo giá dịch vụ</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 modify-col-6">
+                    <div class="one-product">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <ul class="breadcrumb">
+                                    <li><a href="#">Sản Phẩm</a></li>
+                                    <li><a href="#">Máy</a></li>
+                                    <li><a href="#">MÁY CẮT THỦY LỰC 25MM HQ CAO CẤP</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                                <div >  
+                                    <div style="height: auto;width: 100%;">
+                                    <img id="image" alt="" style="width:100%;height:100%" src="./imgs/image2.jpg" />
+                                    </div>  
+                                    <div id="gallery">  
+                                        <a href="#" class="activeborder" data-image="./imgs/image2.jpg" data-zoom-image="./imgs/image2.jpg">  
+                                            <img src="./imgs/image2.jpg" >
+                                        </a>
+                                        <a href="#" class="activeborder" data-image="./imgs/image3.jpg" data-zoom-image="./imgs/image3.jpg">  
+                                            <img src="./imgs/image3.jpg" >
+                                        </a>
+                                        
+                                    </div>  
+                                </div>  
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
+                                <div class="product-detail">
+                                    <h3 class="product-detail-title">MÁY CẮT THỦY LỰC 25MM HQ CAO CẤP</h3>
+                                    <p class="product-detail-code">Mã sản phẩm: 25mm HQ</p>
+                                    <p class="product-detail-cost">Giá: Liên Hệ</p>
+                                    <p class="product-detail-des">MÁY XOA NỀN VIỆT NAM PT36 + ĐỘNG CƠ HOSHI 5,5HP<br>
+                                        Giá: Liên Hệ<br>
+                                        SKU: PT36<br>
+                                        Hãng sản xuất:&nbsp;<br>
+                                        Tình Trạng: Còn hàng<br>
+                                        Máy xoa nền Việt Nam PT36&nbsp;</p>
+                                    <button class="product-detail-contact">Liên Hệ Đặt Hàng</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="product-param">
+                                    <p class="product-param-title"> chi tiết sản phẩm </h3>
+                                    <p class="product-param-des">Máy xoa nền Việt Nam PT36 - Động cơ Hoshi 5,5hp<br>
+                                        <strong>THÔNG SỐ KỸ THUẬT:&nbsp;</strong><br>
+                                        Model: PT36<br>
+                                        Đường kính xoa (mm): 914<br>
+                                        Kích thước lưỡi xoa (mm): 355 x 155&nbsp;<br>
+                                        Tốc độ xoa (v/ph): 50-100<br>
+                                        Động cơ: Hoshi 5,5hp<br>
+                                        Kích thước (mm): 1610x1010x820<br>
+                                        Công suất (hp): 5,5<br>
+                                        Trọng lượng (kg): 74&nbsp;&nbsp;</p>
+                                    <p class="product-param-img"><img src="./imgs/product1.jpg" width="50%" height="auto" alt=""></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="product-relation">
+                                    <h3 class="product-relation-title">SẢN PHẨM LIÊN QUAN</h3>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                            <div class="box-product">
+                                                <div class="box-product-img" ><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html"><img width="100%" src="http://phangiaphatco.com/uploads/images/product/small/1601876861_b45bfbbc07cbff95a6da3463.jpg"></a></div>
+                                                <div class="box-product-detail">
+                                                    <div class="box-product-detail-custom">
+                                                        <a class="custom-quickview"><i  class="fa">&#xf2a8;</i></a>
+                                                    </div>
+                                                    <h5><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html" title="MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)">MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)</a></h5>
+                                                    <p>MSP: GX690 (24HP)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                            <div class="box-product">
+                                                <div class="box-product-img" ><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html"><img width="100%"  src="http://phangiaphatco.com/uploads/images/product/small/1601876861_b45bfbbc07cbff95a6da3463.jpg"></a></div>
+                                                <div class="box-product-detail">
+                                                    <div class="box-product-detail-custom">
+                                                        <a class="custom-quickview"><i  class="fa">&#xf2a8;</i></a>
+                                                    </div>
+                                                    <h5><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html" title="MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)">MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)</a></h5>
+                                                    <p>MSP: GX690 (24HP)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                            <div class="box-product">
+                                                <div class="box-product-img" ><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html"><img width="100%" src="http://phangiaphatco.com/uploads/images/product/small/1601876861_b45bfbbc07cbff95a6da3463.jpg"></a></div>
+                                                <div class="box-product-detail">
+                                                    <div class="box-product-detail-custom">
+                                                        <a class="custom-quickview"><i  class="fa">&#xf2a8;</i></a>
+                                                    </div>
+                                                    <h5><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html" title="MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)">MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)</a></h5>
+                                                    <p>MSP: GX690 (24HP)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+                                            <div class="box-product">
+                                                <div class="box-product-img" ><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html"><img width="100%" src="http://phangiaphatco.com/uploads/images/product/small/1601876861_b45bfbbc07cbff95a6da3463.jpg"></a></div>
+                                                <div class="box-product-detail">
+                                                    <div class="box-product-detail-custom">
+                                                        <a class="custom-quickview"><i  class="fa">&#xf2a8;</i></a>
+                                                    </div>
+                                                    <h5><a href="http://phangiaphatco.com/may-xoa-nen-doi-dynamic-dong-co-honda-gx690-24hp-p580.html" title="MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)">MÁY XOA NỀN ĐÔI DYNAMIC - ĐỘNG CƠ HONDA GX690 (24HP)</a></h5>
+                                                    <p>MSP: GX690 (24HP)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row service text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h3 >Tư vấn dịch vụ</h3>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <img src="./imgs/service.jpg" alt="Avatar" width="100%">
+                          <p class=""><b>Hóa đơn chứng từ đầy đủ</b></p>
+                          <p class="txt">Là đối tác của nhiều doanh nghiệp lớn trên cả nước. Với doanh nghiệp tổ chức việc mua bán văn phòng ở các cửa hàng nhỏ lẻ</p>
+                      </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <img src="./imgs/service.jpg" alt="Avatar" width="100%">
+                          <p class=""><b>Hóa đơn chứng từ đầy đủ</b></p>
+                          <p class="txt">Là đối tác của nhiều doanh nghiệp lớn trên cả nước. Với doanh nghiệp tổ chức việc mua bán văn phòng ở các cửa hàng nhỏ lẻ</p>
+                      </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <img src="./imgs/service.jpg" alt="Avatar" width="100%">
+                          <p class=""><b>Hóa đơn chứng từ đầy đủ</b></p>
+                          <p class="txt">Là đối tác của nhiều doanh nghiệp lớn trên cả nước. Với doanh nghiệp tổ chức việc mua bán văn phòng ở các cửa hàng nhỏ lẻ</p>
+                      </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <img src="./imgs/service.jpg" alt="Avatar" width="100%">
+                          <p class=""><b>Hóa đơn chứng từ đầy đủ</b></p>
+                          <p class="txt">Là đối tác của nhiều doanh nghiệp lớn trên cả nước. Với doanh nghiệp tổ chức việc mua bán văn phòng ở các cửa hàng nhỏ lẻ</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container modify-container-footer">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h5 class="footer-title">Công ty TNHH Thương mại và dịch vụ ngày mới</h5>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <h5 style="line-height: 40px;" class="footer-title text-center"> <span style="display: block;">VPPngaymoi.com </span> Tối ưu chi phí cho văn phòng của bạn</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <ul class="footer-contact">
+                        <li>Số nhà 38 ngõ 250 Tân Mai - P.Thịnh Liệt - Q.Hoàng Mai - Hà Nội</li>
+                        <li>Hotline : 094 644 93 85</li>
+                        <li>Email : info@vppngaymai.com</li>
+                        <li>Website : https://vppngaymai.com</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <ul class="footer-ul">
+                        <li>Trang Chủ</li>
+                        <li>Giới thiệu</li>
+                        <li>Tin tức</li>
+                        <li>Tuyển dụng</li>
+                        <li>Liên Hệ</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <ul class="footer-ul footer-category">
+                        <li>Giấy In</li>
+                        <li>Sơ my lỗ clearbag file mở góc</li>
+                        <li>file hộp file lá file còng ống</li>
+                        <li>bìa , bìa mica đóng sỏ</li>
+                        <li>bút các loại, tẩy , phấn</li>
+                        <li>giấy ghi chú, giấy nhớ</li>
+                        <li>băng dính , dao dọc giấy, kéo</li>
+                        <li>dập ghim, đạn ghim, kẹp ghim</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright @ 2020 vppngaymoi.com  Design by : TriViet</p>
+        </div>
+    </footer>
+
+       
+    <div class="scroll-top">
+        <span class="glyphicon glyphicon-arrow-up"></span>
+    </div>
+
+<!-- zalo chat -->
+    <div class="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+
+<!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+<!-- Latest compiled JavaScript -->
+<script src="./js/jquery.min.js" type="text/javascript"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="./js/index.js"></script>
+
+<!-- plugin mousemove image -->
+<script src="./js/elevateZoom.js" type="text/javascript"></script>  
+<script src="./js/jquery.fancybox.pack.js" type="text/javascript"></script>  
+<script src="./js/jquery.fancybox-1.3.4.js" type="text/javascript"></script> 
+<script type="text/javascript">  
+    $(document).ready(function ()  
+    {  
+    $("#image").elevateZoom({ gallery: 'gallery', cursor: 'pointer', galleryActiveClass: "activeborder" });  
+    $("#image").bind("click", function (e) {  
+    var ez = $('#image').data('elevateZoom');  
+    ez.closeAll();  
+    $.fancybox(ez.getGalleryList());  
+    return false;  
+    });  
+    });  
+    </script> 
+</body>
+</html>
